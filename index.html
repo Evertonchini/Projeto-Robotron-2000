@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+
+    
+
+
+
     <title>Robotron 2000</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -15,7 +20,7 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/Robotron 2000 - Preto/Robotron 2000 - Preto.png" alt="Robotron">
+            <img class="robo" src="img/Robotron 2000 - Preto/Robotron 2000 - Preto.png" alt="Robotron" id="robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
@@ -50,11 +55,11 @@
             <form action="" class="montador">
                 <div class="box montador-conteudo">
                     <div class="peca">
-                        <label for="" class="peca-titulo">Braços</label>
+                        <label for="" class="peca-titulo" id="braco">Braços</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
+                            <buttom class="controle-ajuste" id="Subtrair">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" id="somar">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
@@ -98,5 +103,7 @@
             </form>
         </section>
     </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
